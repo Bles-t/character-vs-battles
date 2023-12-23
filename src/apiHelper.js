@@ -6,6 +6,8 @@ function fetchWikiExtract() {
   const wikiEndpoint = 'https://vsbattles.fandom.com/api.php';
   const wikiParams = '?action=query'
     + "&createaccount"
+    + "json"
+    + "feedwatchlist"
 
 
 
