@@ -5,9 +5,11 @@ import axios from "axios";
 function fetchWikiExtract() {
   const wikiEndpoint = 'https://vsbattles.fandom.com/api.php';
   const wikiParams = '?action=query'
-    + "&createaccount"
-    + "json"
+    + "edit"
+    + "format=json"
     + "feedwatchlist"
+    + "origin=*"
+    + "query"
 
 
 
@@ -36,4 +38,4 @@ function fetchWikiExtract() {
 
 }
 
-module.exports = { fetchWikiExtract }
+export default  { fetchWikiExtract }
