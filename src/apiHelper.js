@@ -9,7 +9,7 @@ function fetchWikiExtract() {
     + "format=json"
     + "feedwatchlist"
     + "origin=*"
-    + "query"
+    + "query=parse"
 
 
 
